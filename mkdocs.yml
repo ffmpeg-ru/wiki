@@ -1,0 +1,48 @@
+site_name: FFmpeg wiki русскоязычное сообщество
+site_url: https://yuccastream.github.io/ffmpeg/
+repo_name: yuccastream/ffmpeg
+repo_url: https://github.com/yuccastream/ffmpeg
+copyright: Copyright &copy; <a href="https://t.me/ffmpeg"  target="_blank" rel="noopener">FFmpeg русскоязычное сообщество</a>, 2021
+theme:
+  name: material
+  custom_dir: overrides
+  language: ru
+  favicon: media/favicon.ico
+  features:
+    - navigation.sections
+  palette:
+    primary: green
+  logo: media/logo.png
+plugins:
+  - search:
+      lang:
+        - en
+        - ru
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.betterem
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/solid/mail-bulk
+      link: mailto:e.medvedev@yucca.app
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/yuccastream
+    - icon: fontawesome/brands/github
+      link: https://github.com/yuccastream/ffmpeg
+
+nav:
+  - index.md

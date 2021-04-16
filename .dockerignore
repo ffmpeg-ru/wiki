@@ -1,0 +1,10 @@
+.deploy/
+.git*
+.dockerignore
+Dockerfile
+.gitlab-ci.yml
+Makefile
+README.md
+AREAS
+CODEOWNERS
+*rclone*
