@@ -19,4 +19,4 @@ https://ffmpeg-ru.github.io/wiki/
 
 ## Отдельное спасибо
 
-При содействии проекта [Юкка](https://yucca.app) - простой видеорегистатор, [telegtam](https://t.me/yuccastream)
+[Юкка](https://yucca.app) - простой видеорегистатор, [telegtam](https://t.me/yuccastream)
