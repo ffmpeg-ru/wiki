@@ -43,3 +43,7 @@ extra:
       link: https://t.me/yuccastream
     - icon: fontawesome/brands/github
       link: https://github.com/ffmpeg-ru/wiki
+
+nav:
+  - index.md
+  - "Сделать вклад": contribute.md
