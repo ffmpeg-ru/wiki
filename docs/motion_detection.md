@@ -2,8 +2,9 @@
 
 Детекция двидения с помощью ffmpeg
 
-## В ffmpeg есть фильтр
+## Описание
 
+В ffmpeg есть фильтр:  
 <http://ffmpeg.org/ffmpeg-all.html#select_002c-aselect>  
 
 Фильтр `select=gt(scene\,0.007)` измеряет кол-во изменённых пикселей в новом кадре относительно предыдущего.  
@@ -11,7 +12,7 @@
 Чем ближе к 0 тем чувствительнее фильтр.
 Фильтр `showinfo` пишет информацию о найденных изменениях в лог.  
 
-### Пример  
+## Пример
 
 ```sh
 ffmpeg -rtsp_transport tcp -i rtsp://192.168.87.12/stream1 -vf "select=gt(scene\,0.007),showinfo" -f null  

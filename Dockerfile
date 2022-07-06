@@ -1,4 +1,4 @@
-FROM squidfunk/mkdocs-material:7.1.1 as build
+FROM squidfunk/mkdocs-material:7.3.6 as build
 WORKDIR /build
 COPY ./ /build/
 
