@@ -10,5 +10,8 @@ jobs:
     container:
       image: squidfunk/mkdocs-material:7.3.6
     steps:
-      - run: ls -lah ; pwd ; cd / ; find . -name "mkdocs.yml"
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
       - run: mkdocs gh-deploy --force
