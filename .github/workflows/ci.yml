@@ -10,5 +10,5 @@ jobs:
     container:
       image: squidfunk/mkdocs-material:7.3.6
     steps:
-      - run: ls -lah
+      - run: ls -lah ; pwd ; cd / ; find . -name "mkdocs.yml"
       - run: mkdocs gh-deploy --force
