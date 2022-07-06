@@ -9,7 +9,7 @@ theme:
   language: ru
   favicon: media/favicon.ico
   features:
-    - navigation.sections
+    - navigation.instant
   palette:
     primary: green
   logo: media/logo.png
@@ -47,4 +47,5 @@ extra:
 nav:
   - index.md
   - "Сделать вклад": contribute.md
-  - "Детекция двидения": motion_detection.md
+  - Заметки:
+    - "Детекция двидения": notes/motion_detection.md
