@@ -47,3 +47,4 @@ extra:
 nav:
   - index.md
   - "Сделать вклад": contribute.md
+  - "Детекция двидения": motion_detection.md
