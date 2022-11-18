@@ -49,3 +49,4 @@ nav:
   - "Сделать вклад": contribute.md
   - Заметки:
     - "Детекция двидения": notes/motion_detection.md
+    - "Примеры с Intel QSV VA-API": notes/vaapi_example.md
